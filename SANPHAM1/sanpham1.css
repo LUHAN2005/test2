@@ -1,0 +1,336 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-size: 1.6rem;
+    position: relative;
+}
+
+.header
+{
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+
+.container_1
+{
+    width: 85%;
+    background-color: rgb(180, 224, 245);
+}
+
+.logo
+{
+    width: 15%;
+    height: 120px;
+    background-color: rgb(78, 169, 199);
+}
+
+.contact
+{
+    display: flex;
+    height: 30px;
+    border: 2px solid rgb(136, 136, 136);
+}
+
+.chuong
+{
+    display: flex;
+    justify-content:flex-end ;
+    
+    width: 1500px;
+}
+
+.nav-menu
+{
+    display: flex;
+    height: 30px;
+}
+
+a
+{
+    text-decoration: none;
+    color: red;
+}
+
+.search-bar
+{
+    margin: 10px 0px;
+    height: 40px ;
+    display: flex;
+    margin-left: 200px;
+}
+
+.tim_kiem1
+{
+    width: 500px;
+}
+
+.bag
+{
+    margin-left: 700px;
+    border: 2px solid rgb(136, 136, 136);
+}
+
+.nav-item
+{
+    flex-grow: 1;
+    border: 2px solid rgb(136, 136, 136);
+}
+
+h1
+{
+    margin-bottom: 150px;
+}
+
+main
+{
+    margin: 0px 200px;
+}
+
+/* áp dụng cho mọi trang */
+
+
+
+/* PHẦN DƯỚI ĐÂY ÁP DỤNG RIÊNG BIỆT */
+
+.container_2
+{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.anh
+{
+    flex-grow: 1;
+    background-color: rgb(221, 118, 118);
+    /* height: 1000px; */
+}
+
+.mieu_ta
+{
+    flex-grow: 5;
+    background-color: rgb(221, 192, 118);
+    margin-left: 30px;
+}
+
+.anh_nho
+{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.anh_nho1,.anh_nho2,.anh_nho3,.anh_nho4,.anh_nho5
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(129, 128, 128);
+}
+
+.anh_chinh
+{
+    height: 571.141px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(129, 128, 128);
+}
+
+.danh_gia
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_danh_gia1,.box_danh_gia3
+{
+    flex-grow: 1;
+    border: 1px solid rgb(129, 128, 128);
+}
+
+.box_danh_gia2
+{
+    flex-grow: 2;
+    border: 1px solid rgb(129, 128, 128);
+}
+
+.ten_san_pham
+{
+    border: 1px solid rgb(129, 128, 128);
+}
+
+.mo_ta
+{
+    border: 1px solid rgb(129, 128, 128);
+    margin-bottom: 30px;
+}
+
+.gia
+{
+    height: 60px;
+    border: 2px solid rgb(129, 128, 128);
+    color: red;
+    background-color: rgb(175, 251, 252);
+}
+
+.chinh_sach
+{
+    height: 400px;
+    border: 2px solid rgb(129, 128, 128);
+    background-color: rgb(201, 248, 195);
+}
+
+.mua_hang
+{
+    height: 400px;
+    background-color: rgb(250, 215, 247);
+}
+
+.so_luong
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.so_luong_san_pham
+{
+    height: 30px;
+    width: 200px;
+}
+
+.tang_giam
+{
+    height: 30px;
+    width: 30px;
+}
+
+.chon_mau
+{
+    height: 250px;
+    background-color: rgb(251, 203, 156);
+    border: 2px solid rgb(129, 128, 128);
+}
+
+.mua_gio_hang
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mua,.gio_hang
+{
+    border: 2px solid rgb(129, 128, 128);
+    width: 100px;
+    height: 50px;
+}
+
+.combo
+{
+    display: flex;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.ma_khuyen_mai1
+{
+    border: 2px solid rgb(129, 128, 128);
+    
+}
+
+.ma_khuyen_mai2
+{
+    margin-left: 20px;
+    border: 2px solid rgb(225, 29, 29);
+}
+
+
+.san_pham_khuyen_mai
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.san_pham_khuyen_mai_con
+{
+    width: 250px;
+    height: 350px;
+    border: 2px solid rgb(218, 41, 41);
+}
+
+.ten_khuyen_mai_con
+{
+    margin: 20px 0px;
+    border: 2px solid rgb(197, 197, 197);
+}
+
+.gia_khuyen_mai_con
+{
+    border: 2px solid rgb(197, 197, 197);
+}
+
+.shop
+{
+    display: flex;
+}
+
+.thuong_hieu
+{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 150px;
+    background-color: #a381e3;
+    
+}
+
+.logo_thuong_hieu
+{
+    width: 150px;
+    margin-right: 20px;
+    border: 2px solid rgb(177, 177, 177);
+    padding: 30px;
+}
+
+.thong_tin_shop
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.ten_thuong_hieu
+{
+    width: 400px;
+    padding-top: 30px ;
+}
+
+.lien_he_voi_shop
+{
+    width: 400px;
+}
+
+
+.container_phan_hoi
+{
+    border: 2px solid rgb(177, 177, 177);
+    margin-left: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ti_le_phan_hoi
+{
+    padding: 10px 0px;
+    width: 250px;
+    border: 2px solid rgb(161, 161, 161);
+    margin: 20px 0px;
+}
+
